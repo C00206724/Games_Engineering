@@ -180,7 +180,7 @@ int main(int argc, char* args[])
 			Entity player("Player");
 			player.addComponent(new HealthComponent(200));
 			player.addComponent(new PositionComponent(100, 100));
-			player.addComponent(new ControlComponent());
+			//player.addComponent(new ControlComponent());
 
 
 			Entity alien("Alien");
@@ -190,6 +190,7 @@ int main(int argc, char* args[])
 			Entity dog("Dog");
 			dog.addComponent(new HealthComponent(150));
 			dog.addComponent(new PositionComponent(400, 500));
+			dog.addComponent(new ControlComponent());
 
 			Entity cat("Cat");
 			cat.addComponent(new HealthComponent(90));
@@ -213,10 +214,10 @@ int main(int argc, char* args[])
 			renderS.addEntity(cat);
 
 			aiS.addEntity(alien);
-			aiS.addEntity(dog);
+			aiS.addEntity(player);
 			aiS.addEntity(cat);
 
-			controlS.addEntity(player);
+			controlS.addEntity(dog);
 
 			//While application is running
 			while (!quit)

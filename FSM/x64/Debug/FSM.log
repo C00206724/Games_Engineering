@@ -1,0 +1,19 @@
+﻿  Animation.cpp
+  Idle.cpp
+  InputHandler.cpp
+  MacroCommand.cpp
+  main.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_MapRGB referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_FillRect referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_GetWindowSurface referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_UpdateWindowSurface referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\gameuser\Documents\Games_Engineering\FSM\x64\Debug\FSM.exe : fatal error LNK1120: 12 unresolved externals
