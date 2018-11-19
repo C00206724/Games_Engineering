@@ -1,0 +1,3 @@
+﻿  AssertionLab.cpp
+c:\users\gameuser\source\repos\assertionlab\assertionlab.cpp(16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  AssertionLab.vcxproj -> C:\Users\gameuser\source\repos\AssertionLab\Debug\AssertionLab.exe
